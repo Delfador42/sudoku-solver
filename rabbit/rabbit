@@ -1,0 +1,50 @@
+dynamic allocation in c
+    :: Used so that the variable can be returned and not destroyed when the
+    function ends, dynamic allocation puts the variable in the heap and not in
+    the stack where the stack frame is destroyed after the function returns
+
+arrays in c, relation to pointers, and using structs
+
+function signature
+    Used so that the compiler knows about a function before it is used.
+    
+
+
+
+/*
+* QUESTION: WHAT IS SIZE_T
+* ANSWER: An unsigned integer type
+*
+* QUESTION: WHY USE SIZE_T OVER INT
+* ANSWER: An unsigned int and is guarenteed to be big enough for the biggest
+* object on your system, size_t will never be negative because it is
+* unsigned
+*
+* QUESTION: STATIC ARRAY VS DYNAMIC ARRAY, USES FOR BOTH?
+* ANSWER: Statically allocated variables will be destroyed when the function
+* returns so you want to make it dynamically allocated so that it lives on
+* the heap and will persist
+*
+*/
+
+
+QUESTION: Why use a pointer to struct instead of the struct type itself
+arrays in c, relation to pointers, and using structs
+
+
+* What is the purpose for dynamically allocated memory for a struct
+
+* When I dynamically allocate memory for a struct am I making a new struct
+ object
+
+
+
+Q: HOW DOES GAMOZO INITIALIZE POINTERS
+int** ptr;
+    :: Because it defines the type, ptr is of type int**
+
+
+Q: why the return 1 :: mark 21:06
+
+
+Q: How does george hotz keep track of many open files
